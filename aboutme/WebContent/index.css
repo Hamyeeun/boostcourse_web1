@@ -1,0 +1,18 @@
+@charset "UTF-8";
+section {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.innerBtn{
+    border: 0;
+    background-color: #8fbbc6;
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: 18px;
+    box-shadow: 10px 5px 5px gray;
+}
+.innerBtn:hover{
+    background-color: lightpink;
+    border: 0px;
+}

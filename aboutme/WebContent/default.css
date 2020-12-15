@@ -1,0 +1,46 @@
+@charset "UTF-8";
+header{
+    background-color: white;
+}
+section {
+    background-color: white;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+body{
+    background-color: #a6c6b9;
+}
+
+header ul{
+    list-style: none;
+    padding-left: 0px;
+    /* float: right; */
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+header ul li button{
+    position: relative;
+    left: 1350px;
+    border: 0px;
+    font-size: 16px;
+    background-color: #8fbbc6;
+    color: purple;
+    height: 50px;
+    width: 100px;
+    box-shadow: 10px 5px 5px gray;
+}
+header ul li button:hover{
+    background-color: lightpink;
+    border: 0px;
+}
+button{
+    cursor: pointer;
+}
